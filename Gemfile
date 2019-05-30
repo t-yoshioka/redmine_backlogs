@@ -8,7 +8,7 @@ redmine_version_major = version_file.match(/MAJOR =/).post_match.match(/\d/)[0].
 
 gem "holidays", "~>1.0.3"
 gem "icalendar"
-gem "nokogiri"
+gem "nokogiri", "~>1.7.2"
 gem "open-uri-cached"
 gem "prawn"
 gem 'json'
@@ -30,7 +30,7 @@ group :test do
   gem "poltergeist"
   gem "database_cleaner"
   gem "gherkin"
-  gem "rspec"
+  #gem "rspec"
   gem "rspec-rails"
   gem "ruby-prof", :platforms => [:ruby]
   gem "spork"
